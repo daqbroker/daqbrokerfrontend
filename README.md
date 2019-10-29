@@ -1,4 +1,4 @@
-# daqbrokerfrontend
+# frontend
 
 ## Project setup
 ```
