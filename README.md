@@ -1,4 +1,6 @@
-# frontend
+# Daqbroker Frontend
+
+Frontend interface to handle DAQBroker's API
 
 ## Project setup
 ```
@@ -27,3 +29,4 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
