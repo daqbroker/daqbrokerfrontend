@@ -1,0 +1,21 @@
+#Comments on pushing dist folder to another branch
+
+#Create the dist folder by building the vue app
+npm run build
+
+#Navigate into the dist fodler
+cd dist
+
+#Create a new repository
+git init
+
+#Add all files inisde the folder
+git add .
+
+#Commit these files
+git commit -m "Commit message"
+
+#Push the repository (forcefully) onto the branch
+# BIG QUESTION : Why the "master:<branchname>" ? Why not just <branchname>?
+git push -f https://github.com/daqbroker/daqbrokerfrontend.git master:deployed
+
