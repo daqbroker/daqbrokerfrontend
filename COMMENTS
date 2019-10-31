@@ -19,4 +19,4 @@ git commit -m "Commit message"
 # BIG QUESTION : Why the "master:<branchname>" ? Why not just <branchname>?
 git push -f https://github.com/daqbroker/daqbrokerfrontend.git master:deployed
 
-#Testing here to check if the hook works
+#Testing here to check if the hook works2
